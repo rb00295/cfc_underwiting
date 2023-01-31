@@ -24,7 +24,7 @@ This program requires the following to be installed:
 
 1. Run main.py as any other Python script from terminal or IDE.
 2. A message may be displayed asking for permission to use file system when running.
-   Accept, this is Selenium web-driver trying to access Chrome and/or write .json files to current directory.
+   Accept, this is Selenium web-driver accessing Google Chrome and/or Python writing .json files to current directory.
 4. Output files from program will be saved to the same directory as main.py.
 
 
