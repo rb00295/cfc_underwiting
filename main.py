@@ -86,7 +86,7 @@ def create_word_freq_dict(strings, endString):
 
     freq = {}
     # Loop through all strings.
-    for i, x in enumerate(strings):     
+    for x in strings:     
         # Separate string into words.
         y = x.split()       
 
@@ -108,7 +108,7 @@ def create_word_freq_dict(strings, endString):
                 freq[z] = 1
         
         # Break loop if endString processed.
-        if(i == endString):
+        if(x == endString):
             break
 
     return freq
