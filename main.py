@@ -6,6 +6,7 @@
 #Use list comprehension rather than for loop to create word dictionary, need to make sure that only visible strings are in the list.
 #list comprehension for finding id [i for i, e in enumerate([1, 2, 1]) if e == "Privacy Policy"]
 #use close() or quit() to end driver session.
+#use numpy array rather than lists
 
 
 import json
