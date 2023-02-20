@@ -3,6 +3,7 @@
 #Specify not to read script.
 #Use opencv and tesseract to read text from image by scroling down using Selenium scroll_by() method.
 #User defined language and have a dictionary for Privacy Policy in different languages.
+#Use list comprehension rather than for loop to create word dictionary, need to make sure that only visible strings are in the list.
 
 import json
 from bs4 import BeautifulSoup
