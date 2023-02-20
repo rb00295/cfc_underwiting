@@ -1,3 +1,9 @@
+#IMPROVEMENTS:
+#Use <footer> tag as marker for last strings which are visible on web page.
+#Specify not to read script.
+#Use opencv and tesseract to read text from image by scroling down using Selenium scroll_by() method.
+#User defined language and have a dictionary for Privacy Policy in different languages.
+
 import json
 from bs4 import BeautifulSoup
 from selenium.webdriver import Chrome, ChromeOptions;
