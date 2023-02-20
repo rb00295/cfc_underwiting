@@ -1,9 +1,12 @@
 #IMPROVEMENTS:
 #Use <footer> tag as marker for last strings which are visible on web page.
 #Specify not to read script.
-#Use opencv and tesseract to read text from image by scroling down using Selenium scroll_by() method.
+#Use opencv and tesseract to read text from image by scroling down using Selenium scroll_by() method, this will make sure that no need to 
 #User defined language and have a dictionary for Privacy Policy in different languages.
 #Use list comprehension rather than for loop to create word dictionary, need to make sure that only visible strings are in the list.
+#list comprehension for finding id [i for i, e in enumerate([1, 2, 1]) if e == "Privacy Policy"]
+#use close() or quit() to end driver session.
+
 
 import json
 from bs4 import BeautifulSoup
